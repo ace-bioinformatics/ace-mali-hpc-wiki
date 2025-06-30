@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://ace-bioinformatics.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/ace-hpc-wiki/ml',
+  baseUrl: '/ace-mali-hpc-wiki',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
