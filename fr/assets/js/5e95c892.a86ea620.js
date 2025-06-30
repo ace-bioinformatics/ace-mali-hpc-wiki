@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkace_mali_hpc_wiki=self.webpackChunkace_mali_hpc_wiki||[]).push([[647],{7121:(e,a,c)=>{c.r(a),c.d(a,{default:()=>n});c(6540);var s=c(4164),r=c(5500),i=c(7559),u=c(2831),l=c(1656),h=c(4848);function n(e){return(0,h.jsx)(r.e3,{className:(0,s.A)(i.G.wrapper.docsPages),children:(0,h.jsx)(l.A,{children:(0,u.v)(e.route.routes)})})}}}]);
