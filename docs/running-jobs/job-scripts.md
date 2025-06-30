@@ -9,7 +9,7 @@ This guide will walk you through how to write a basic SLURM job script, using a 
 
 ---
 
-## Step 1: Basic Structure of a SLURM Job Script
+## Basic Structure of a SLURM Job Script
 
 A basic SLURM job script is a shell script that includes SLURM directives (prefixed with `#SBATCH`) to specify job parameters, followed by commands to run the actual task.
 
@@ -48,7 +48,7 @@ blastn -query input.fasta -db database -out results.txt -num_threads 8
 
 ---
 
-## Step 2: Loading Modules
+## Loading Modules
 
 Most HPC systems, including ACE, have software installed in modules. Before you run your job, you may need to load the required software module.
 
@@ -61,7 +61,7 @@ module avail
 
 ---
 
-## Step 3: Writing the Commands to Run Your Task
+## Writing the Commands to Run Your Task
 
 After setting up your SLURM directives, you can include the commands to run your job. In the example, the job runs a `blastn` command:
 
@@ -73,7 +73,7 @@ This command performs a BLAST search with the input file `input.fasta` against t
 
 ---
 
-## Step 4: Submitting Your Job
+## Submitting Your Job
 
 Once your job script is ready, save it to a file, such as `blast_job.sh`. To submit the job to SLURM, use the `sbatch` command:
 
@@ -85,7 +85,7 @@ You’ll receive a job ID upon submission, which you can use to track or cancel 
 
 ---
 
-## Step 5: Monitoring Your Job
+## Monitoring Your Job
 
 After submission, you can monitor the status of your job using `squeue`:
 
@@ -101,7 +101,7 @@ scontrol show job <job_id>
 
 ---
 
-## Step 6: Checking Output and Errors
+## Checking Output and Errors
 
 After the job completes, check the output and error files you specified (`blast_job.out` and `blast_job.err`). If the job completes successfully, you should find your results in the output file (`results.txt`).
 

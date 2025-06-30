@@ -37,7 +37,7 @@ This guide provides instructions for users to connect to the African Centre of E
 - A computer with an SSH client installed (e.g., OpenSSH on Linux/Mac, or PuTTY on Windows).
 - Access to EduVPN credentials provided by the African Centre of Excellence in Bioinformatics.
 
-### Step 1: Connect to the ACE Network Using EduVPN
+### Connect to the ACE Network Using EduVPN
 To access the ACE HPC Cluster from off-site, users must first connect to the ACE network using EduVPN. Follow these steps:
 
 1. **Download and Install EduVPN**  
@@ -51,7 +51,7 @@ To access the ACE HPC Cluster from off-site, users must first connect to the ACE
 3. **Authenticate with Your Credentials**  
    Log in using the EduVPN credentials provided by the African Centre of Excellence in Bioinformatics. Once authenticated, the EduVPN client will establish a secure connection to the ACE network.
 
-### Step 2: Connect to the ACE HPC Cluster via SSH
+### Connect to the ACE HPC Cluster via SSH
 After successfully connecting to the ACE network through EduVPN, users can access the HPC cluster using SSH. Follow these steps:
 
 1. **Open a Terminal**  
