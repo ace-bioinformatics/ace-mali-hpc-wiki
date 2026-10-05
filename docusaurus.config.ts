@@ -81,7 +81,7 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'wikiSidebar',
           position: 'left',
           label: 'Wiki',
         },
@@ -103,8 +103,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Get Start',
-              to: '/docs/intro',
+              label: 'Get Started',
+              to: '/docs/',
             },
           ],
         },

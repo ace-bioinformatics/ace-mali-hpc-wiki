@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -15,7 +16,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/speedometer-svgrepo-com.svg').default, 
     description: (
       <>
-        Learn how to access the ACE HPC cluster, connect via SSH, and submit your first job in minutes. Check out our <a href="/docs/getting-started/accounts">step-by-step guide</a>.
+        Learn how to access the ACE HPC cluster, connect via SSH, and submit your first job in minutes. Check out our <Link to="/docs/accounts-login/">step-by-step guide</Link>.
       </>
     ),
   },
@@ -24,7 +25,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/settings-gear-svgrepo-com.svg').default,
     description: (
       <>
-        Leverage our high-performance nodes, GPUs, and vast storage for your bioinformatics workflows. Explore the <a href="/docs/hardware/overview">cluster specs</a>.
+        Leverage our high-performance nodes, GPUs, and vast storage for your bioinformatics workflows. Explore the <Link to="/docs/hardware/">cluster specs</Link>.
       </>
     ),
   },
@@ -33,7 +34,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/analytics-computer-svgrepo-com.svg').default,
     description: (
       <>
-        Use pre-installed tools like BLAST and R, or install your own software to process genomic data efficiently. See the <a href="/docs/software/installed">software list</a>.
+        Use pre-installed tools like BLAST and R, or install your own software to process genomic data efficiently. See the <Link to="/docs/software/">software list</Link>.
       </>
     ),
   },
